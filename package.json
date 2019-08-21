@@ -3,12 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "apollo-server-koa": "^2.8.2",
+    "cross-env": "^5.2.0",
+    "faker": "^4.1.0",
+    "graphql": "^14.4.2",
+    "koa": "^2.8.1",
+    "npm-run-all": "^4.1.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "front": "react-scripts start",
+    "start": "npm-run-all -p server front",
+    "server": "node server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
