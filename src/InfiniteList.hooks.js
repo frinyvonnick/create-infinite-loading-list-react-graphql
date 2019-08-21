@@ -48,7 +48,6 @@ function usePersons() {
         return newEdges.length
           ? {
             persons: {
-              // eslint-disable-next-line no-underscore-dangle
               __typename: previousResult.persons.__typename,
               edges: [...previousResult.persons.edges, ...newEdges],
               pageInfo,
