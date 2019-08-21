@@ -38,7 +38,7 @@ const resolvers = {
   Query: {
     persons: (query, { cursor, first }) => {
       faker.seed(123)
-      const persons = range(50, () => ({
+      const persons = range(200, () => ({
         id: random.uuid(),
         firstname: name.firstName(),
         lastname: name.lastName(),

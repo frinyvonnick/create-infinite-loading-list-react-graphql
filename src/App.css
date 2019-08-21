@@ -16,7 +16,7 @@ box-sizing: border-box;
   background-color: #282c34;
   height: 35vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -24,8 +24,19 @@ box-sizing: border-box;
   padding: 20px;
 }
 
+.App-header > div {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.App-link-graphql {
+  color: #e536ab;
 }
 
 @keyframes App-logo-spin {

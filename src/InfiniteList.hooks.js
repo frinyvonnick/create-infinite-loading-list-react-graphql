@@ -3,7 +3,7 @@ import { gql } from 'apollo-boost';
 
 const GET_PERSONS = gql`
 query getPersons($cursor: ID) {
-  persons(first: 10, cursor: $cursor) {
+  persons(first: 20, cursor: $cursor) {
     edges {
       node {
         lastname
