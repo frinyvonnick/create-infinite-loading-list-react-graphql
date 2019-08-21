@@ -1,0 +1,11 @@
+.InfiniteList-list {
+  height: 65vh;
+  width: 100%;
+}
+
+.InfiniteList-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+}
