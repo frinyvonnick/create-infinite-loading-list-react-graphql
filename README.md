@@ -1,1 +1,1 @@
-# create-infinite-loading-list-react-graphql
+#  Create infinite loading list with React and GraphQL
