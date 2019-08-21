@@ -27,11 +27,6 @@ function usePersons() {
     notifyOnNetworkStatusChange: true,
   })
 
-  console.log('useQuery', {
-    data,
-    loading,
-  })
-
   if (loading && !data.persons) return { loading, persons: [] }
 
   const loadMore = () => {
