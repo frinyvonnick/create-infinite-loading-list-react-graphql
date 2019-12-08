@@ -1,6 +1,6 @@
 # Create an infinite loading list with React and GraphQL
 
-This week I had to implement a infinite loading list to display users in a React application I'm developping for my current customer. I have already done it before but never using GraphQL as server part. It was time to learn how to implement the [pagination mecanism](https://graphql.org/learn/pagination/) described in the GraphQL specification.
+This week I had to implement a infinite loading list to display users in a React application I'm developping for my current customer. I have already done it before but never using GraphQL as server part. It was time to learn how to implement the [pagination mechanism](https://graphql.org/learn/pagination/) described in the GraphQL specification.
 
 Infinite loading list are really useful to breaks large amount of data into small chunks that can be loaded as the user scrolls down the list. The front page of [dev.to](https://dev.to/) is a good example of this kind of lists. It saves users from a full page load. It also provides better user experience in mobile applications.
 
